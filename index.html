@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Student Portfolio — LifeMap Venn</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <img class="brand-logo" src="Arts/logo/auie%20logo.png" alt="Auie logo" />
+                Mowie Auie
+            </div>
+            <nav id="mainNav" aria-label="Primary">
+                <a href="#home" data-target="home" class="active">Home</a>
+                <a href="#about" data-target="about">About</a>
+                <a href="#projects" data-target="projects">Projects</a>
+                <a href="#lifemap" data-target="lifemap">LifeMap</a>
+                <a href="#contact" data-target="contact">Contact</a>
+            </nav>
+            <button id="themeToggle" aria-pressed="false" title="Toggle light/dark">🌙 Dark</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="intro">
+<!--                 <h1>ABOUT ME</h1>
+                <p class="muted">Hello! I’m Auie Obedoza, a freshman currently taking a Bachelor of Multimedia Arts Specialized in Animation in CIIT College of Arts and Technology. I’m interested in making artworks, whether through illustration or writing, that evokes human feelings. My journey started when I was in 4th grade, drawing not-so-accurate people and designing dresses, it later evolved into drawing with proper proportions through self-learning, I later learned digital arts. I’m still refining my skills specifically in illustration and animation here at CIIT, where I believe will help me take my current skills to the next level. </p>
+            </div>
+            <div style="min-width:220px; text-align:right;">
+                <div class="badge"></div>
+                <div style="height:10px"></div>
+                <div class="muted"></div>
+            </div>   -->
+        </section>
+
+        <!-- Home page -->
+        <section id="home" class="page active" aria-labelledby="homeHeading">
+            <h2 id="homeHeading">Welcome</h2>
+            <p class="muted">Hello! I’m Auie Obedoza.</p>
+            <a class="project-link" href="#" data-img="Arts/Profile/DSC06341.jpeg"><img class="profile-img" src="Arts/Profile/DSC06341.jpeg" alt="Profile" draggable="false"></a>
+        </section>
+
+        <!-- About page -->
+        <section id="about" class="page" aria-labelledby="aboutHeading">
+            <h2 id="aboutHeading">About</h2>
+            <p class="muted">Hello! I’m Auie Obedoza, a freshman currently taking a Bachelor of Multimedia Arts Specialized in Animation in CIIT College of Arts and Technology. I’m interested in making artworks, whether through illustration or writing, that evokes human feelings. My journey started when I was in 4th grade, drawing not-so-accurate people and designing dresses, it later evolved into drawing with proper proportions through self-learning, I later learned digital arts. I’m still refining my skills specifically in illustration and animation here at CIIT, where I believe will help me take my current skills to the next level. </p>
+                <div class="card card-expandable">
+                    <button class="card-toggle" aria-expanded="false" aria-controls="exp-education">EDUCATIONAL ATTAINMENT ▾</button>
+                    <div id="exp-education" class="card-body" hidden>
+                        <div class="muted" style="margin-top:8px">Elementary: Doña Juana Elementary School 2012-2019</div>
+                        <div class="muted" style="margin-top:6px">Junior High School: Batasan Hills National High School 2019-2023</div>
+                        <div class="muted" style="margin-top:6px">Senior High School: Batasan Hills National High School 2023-2025</div>
+                        <div class="muted" style="margin-top:6px">College: CIIT College of Arts and Technology 2025-Present</div>
+                    </div>
+                </div>
+                <div class="card card-expandable">
+                    <button class="card-toggle" aria-expanded="false" aria-controls="exp-credentials">CREDENTIALS ▾</button>
+                    <div id="exp-credentials" class="card-body" hidden>
+                        <div>Senior High School: Grade 12</div>
+                        <div class="muted" style="margin-top:8px">First Semester: With high honors</div>
+                        <div class="muted" style="margin-top:6px">Second Semester: With highest honors</div>
+                        <div class="muted" style="margin-top:6px">Graduated With High Honors</div>
+                        <div class="muted" style="margin-top:6px">1st Placer in Music Video making during English month</div>
+                        <div class="muted" style="margin-top:6px">Best in Work Immersion</div>
+                        <div class="muted" style="margin-top:6px">NCII Animation Passer</div>
+                    </div>
+                </div>
+                <div class="card card-expandable">
+                    <button class="card-toggle" aria-expanded="false" aria-controls="exp-skills">SKILLS ▾</button>
+                    <div id="exp-skills" class="card-body" hidden>
+                        <div class="muted" style="margin-top:8px">DIGITAL ARTS</div>
+                        <div class="muted" style="margin-top:6px">TRADITIONAL ARTS </div>
+                        <div class="muted" style="margin-top:6px">WRITING</div>
+                    </div>
+                </div>
+                <div class="card card-expandable">
+                    <button class="card-toggle" aria-expanded="false" aria-controls="exp-experience">EXPERIENCE ▾</button>
+                    <div id="exp-experience" class="card-body" hidden>
+                        <div class="muted" style="margin-top:8px">2021-2024: Freelance Digital Artist</div>
+                        <div class="muted" style="margin-top:6px">2023: Script Writing for Scriptthink in English Month</div>
+                        <div class="muted" style="margin-top:6px">2025: Script Writing for CPAR final project animation</div>
+                        <div class="muted" style="margin-top:6px">2025: Clean-up Artist for CPAR final project animation</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <strong>TRAITS</strong>
+                    <details class="collapsible" style="margin-top:8px">
+                        <summary>Strengths</summary>
+                        <div class="content">
+                            <ul style="margin-top:8px">
+                                <li><strong>Agreeable:</strong> Cooperative and empathetic, supports teamwork.</li>
+                                <li><strong>Communicative:</strong> Extroverted — good at collaboration and sharing ideas.</li>
+                                <li><strong>Forgiveness:</strong> Understanding and less critical of others' mistakes.</li>
+                                <li><strong>Love:</strong> Values close relationships and shared values.</li>
+                                <li><strong>Love of Learning:</strong> Continually seeks knowledge to improve creatively.</li>
+                                <li><strong>Fairness:</strong> Treats people equally when making decisions.</li>
+                                <li><strong>Hope:</strong> Optimistic and motivated about future endeavors.</li>
+                                <li><strong>Judgement:</strong> Evaluates situations carefully before concluding.</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details class="collapsible" style="margin-top:8px">
+                        <summary>Weaknesses</summary>
+                        <div class="content">
+                            <ul style="margin-top:8px">
+                                <li><strong>Short attention span:</strong> Easily distracted; can slow progress and affect balance.</li>
+                                <li><strong>Hesitant to new ideas:</strong> Prefers familiar approaches and can be intimidated by new directions.</li>
+                                <li><strong>Easily discouraged:</strong> Tends to take failures personally instead of using them to grow.</li>
+                                <li><strong>Procrastination:</strong> Putting off tasks, which disrupts future work.</li>
+                                <li><strong>Creative block:</strong> Periodic blocks that hinder productivity.</li>
+                            </ul>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects page -->
+        <section id="projects" class="page" aria-labelledby="projectsHeading">
+            <h2 id="projectsHeading">Projects</h2>
+            <div class="projects-grid" style="margin-top:12px">
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Digital — Showcase</strong>
+                        <button class="gallery-toggle" aria-expanded="false" aria-controls="gallery-digital-body">Show ▼</button>
+                    </div>
+                    <div class="muted">Selected digital artworks. Click thumbnails to preview; use arrows to navigate.</div>
+                    <div id="gallery-digital-body" class="gallery-body" hidden>
+                        <div class="thumb-grid" data-gallery="gallery-digital">
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled104_20220926194121.png"><img src="Arts/digital/Untitled104_20220926194121.png" alt="Digital artwork Untitled104" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled107_20221002171729.png"><img src="Arts/digital/Untitled107_20221002171729.png" alt="Digital artwork Untitled107" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled117_20221013124901.png"><img src="Arts/digital/Untitled117_20221013124901.png" alt="Digital artwork Untitled117" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled206_20230804232930.png"><img src="Arts/digital/Untitled206_20230804232930.png" alt="Digital artwork Untitled206" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled239_20250121074955.jpg"><img src="Arts/digital/Untitled239_20250121074955.jpg" alt="Digital artwork Untitled239" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/digital/Untitled265_20240424052102.png"><img src="Arts/digital/Untitled265_20240424052102.png" alt="Digital artwork Untitled265" draggable="false"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Traditional — Sketches & Photos</strong>
+                        <button class="gallery-toggle" aria-expanded="false" aria-controls="gallery-traditional-body">Show ▼</button>
+                    </div>
+                    <div class="muted">Traditional media and photo documentation. Click thumbnails to preview.</div>
+                    <div id="gallery-traditional-body" class="gallery-body" hidden>
+                        <div class="thumb-grid" data-gallery="gallery-traditional">
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2065.jpg"><img src="Arts/traditional/IMG_2065.jpg" alt="Traditional IMG_2065" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2360.jpg"><img src="Arts/traditional/IMG_2360.jpg" alt="Traditional IMG_2360" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2361.jpg"><img src="Arts/traditional/IMG_2361.jpg" alt="Traditional IMG_2361" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2362.jpg"><img src="Arts/traditional/IMG_2362.jpg" alt="Traditional IMG_2362" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2387.jpg"><img src="Arts/traditional/IMG_2387.jpg" alt="Traditional IMG_2387" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2388.jpg"><img src="Arts/traditional/IMG_2388.jpg" alt="Traditional IMG_2388" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2493.jpg"><img src="Arts/traditional/IMG_2493.jpg" alt="Traditional IMG_2493" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2505.jpg"><img src="Arts/traditional/IMG_2505.jpg" alt="Traditional IMG_2505" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_2884.jpg"><img src="Arts/traditional/IMG_2884.jpg" alt="Traditional IMG_2884" draggable="false"></a>
+                            <a class="project-link" href="#" data-img="Arts/traditional/IMG_3066.jpg"><img src="Arts/traditional/IMG_3066.jpg" alt="Traditional IMG_3066" draggable="false"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Writings card inserted here under Projects -->
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Writings</strong>
+                        <button class="gallery-toggle" aria-expanded="false" aria-controls="gallery-writings-body">Show ▼</button>
+                    </div>
+                    <div class="muted">Collection of written work and scripts. Click an item to preview it in the viewer.</div>
+                    <div id="gallery-writings-body" class="gallery-body" hidden>
+                        <div class="thumb-grid" data-gallery="gallery-writings">
+                            <a class="project-link" href="#" data-img="Arts/writings/CPAR Animation Script.pdf"><span>CPAR Animation Script.pdf</span></a>
+                            <a class="project-link" href="#" data-img="Arts/writings/SCRIPTHINK Disney.pdf"><span>SCRIPTHINK Disney.pdf</span></a>
+                            <a class="project-link" href="#" data-img="Arts/writings/when-death-comes-knocking-to-your-door-31331f80cf39.pdf"><span>when-death-comes-knocking-to-your-door.pdf</span></a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Project preview modal (lightbox) -->
+            <div id="project-modal" class="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+                <div class="project-modal-backdrop" data-close></div>
+                    <div class="project-modal-content" role="document">
+                        <button id="project-modal-close" class="modal-close" aria-label="Close project preview">✕</button>
+                        <img id="project-modal-img" src="" alt="Project preview" />
+                        <iframe id="project-modal-iframe" src="" title="Document preview" style="display:none"></iframe>
+                        <div id="project-modal-caption" class="muted" style="margin-top:8px"></div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- LifeMap page with SVG Venn (from wip/index0.html) -->
+        <section id="lifemap" class="page" aria-labelledby="lifemapHeading">
+            <h2 id="lifemapHeading">Life Goals: LIFE MAP (ikigai)</h2>
+            <div class="venn-wrap" style="margin-top:12px">
+                <div class="svg-wrap" aria-hidden="false">
+                    <!-- SVG Venn Diagram -->
+                    <svg id="venn-svg" class="venn-svg-main" viewBox="0 0 800 600" role="img" aria-label="Interactive 4-circle Venn life map">
+                        <defs>
+                            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                                <feGaussianBlur stdDeviation="8" result="blur" />
+                                <feMerge>
+                                    <feMergeNode in="blur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <!-- A (Work) -->
+                        <circle class="venn-circle" id="circle-A" cx="300" cy="280" r="160" style="fill:var(--vA);stroke:var(--stroke);stroke-width:var(--stroke-width)" />
+                        <!-- B (Health) -->
+                        <circle class="venn-circle" id="circle-B" cx="500" cy="280" r="160" style="fill:var(--vB);stroke:var(--stroke);stroke-width:var(--stroke-width)" />
+                        <!-- C (Relationships) -->
+                        <circle class="venn-circle" id="circle-C" cx="400" cy="160" r="160" style="fill:var(--vC);stroke:var(--stroke);stroke-width:var(--stroke-width)" />
+                        <!-- D (Growth) -->
+                        <circle class="venn-circle" id="circle-D" cx="400" cy="400" r="160" style="fill:var(--vD);stroke:var(--stroke);stroke-width:var(--stroke-width)" />
+
+                        <!-- center label -->
+                        <text x="400" y="285" class="region-label" opacity="0.95">IKIGAI</text>
+                        <text x="210" y="220" class="region-label" style="font-size:13px">What I’m good at </text>
+                        <text x="590" y="220" class="region-label" style="font-size:13px">What the world needs </text>
+                        <text x="400" y="80" class="region-label" style="font-size:13px">What I Love</text>
+                        <text x="400" y="520" class="region-label" style="font-size:13px">What I can be paid for </text>
+                    </svg>
+
+                    <!-- Popup inside svg-wrap -->
+                    <div id="popup" class="popup-svg" role="dialog" aria-hidden="true">
+                        <header style="display:flex;justify-content:space-between;align-items:center">
+                            <h4 id="popup-title" style="margin:0;font-size:14px">Selection</h4>
+                            <button id="close-popup" class="close-btn" aria-label="Close" style="display:none">Close</button>
+                        </header>
+                        <div id="popup-content" class="content" style="margin-top:8px;color:var(--muted);font-size:13px;line-height:1.4"></div>
+                    </div>
+                </div>
+
+                <aside class="venn-info" aria-hidden="false">
+                    <div class="badge">LifeMap</div>
+                    <p class="muted">Hover inside the diagram to see contextual tooltips that describe the overlapping areas and suggested projects or habits.</p>
+                    <div style="margin-top:10px" class="muted">Legend</div>
+                    <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+                        <button class="legend-btn" data-region="A" aria-pressed="false"><span style="display:inline-block;width:12px;height:12px;background:rgba(255,107,107,0.9);border-radius:50%;margin-right:8px"></span><strong>What I’m good at</strong></button>
+                        <button class="legend-btn" data-region="B" aria-pressed="false"><span style="display:inline-block;width:12px;height:12px;background:rgba(255,216,107,0.9);border-radius:50%;margin-right:8px"></span><strong>What the world needs</strong></button>
+                        <button class="legend-btn" data-region="C" aria-pressed="false"><span style="display:inline-block;width:12px;height:12px;background:rgba(107,255,216,0.9);border-radius:50%;margin-right:8px"></span><strong>What I Love</strong></button>
+                        <button class="legend-btn" data-region="D" aria-pressed="false"><span style="display:inline-block;width:12px;height:12px;background:rgba(107,139,255,0.9);border-radius:50%;margin-right:8px"></span><strong>What I can be paid for</strong></button>
+                    </div>
+                </aside>
+            </div>
+
+            <div style="margin-top:14px" class="muted">Tip: hover inside the diagram to explore unions; press Escape to close the tooltip.</div>
+        </section>
+
+        <!-- Contact page -->
+        <section id="contact" class="page" aria-labelledby="contactHeading">
+            <h2 id="contactHeading">Contact</h2>
+            <p class="muted">Email: <strong>auieobedoza21@gmail.com</strong></p>
+<!--            <p class="muted">LinkedIn / GitHub links</p> -->
+        </section>
+    </main>
+
+    <footer>
+        Just a simple student portfolio template • © 2025 Auie Obedoza
+    </footer>
+
+
+</body>
+</html>
